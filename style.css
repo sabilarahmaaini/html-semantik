@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #526b59;
+    color: white;
+    padding: 20px 50px;
+}
+
+header h1 {
+    font-size: 26px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    padding: 15px 50px;
+    background-color: #dce8dc;
+    gap: 18px;
+    
+}
+
+nav a {
+    color: #526b59;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Konten utama */
+main {
+    max-width: 850px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+/* Section */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+section h2 {
+    color: #526b59;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #dce8dc;
+    padding-bottom: 8px;
+}
+
+section h3 {
+    color: #526b59;
+    margin: 20px 0 10px;
+}
+
+/* Tabel biodata */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+th, td {
+    padding: 13px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e5eae4;
+}
+
+th {
+    background-color: #dce8dc;
+    color: #354c3a;
+    width: 35%;
+}
+
+td {
+    background-color: #fbfcfa;
+}
+
+tr:hover td {
+    background-color: #eef4ed;
+}
+
+footer {
+    background-color: #354c3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+}
